@@ -49,6 +49,7 @@ SARIMA outperformed ARIMA with lower error values, making it a better choice for
 - Visualizations and predictions were presented to aid decision-making in public health.
 
 ## Link for the Jupyter notebook
+https://github.com/preetikumar20/Capstone_Covid19/blob/ac8c34bb6a10d9860434f838e5dfcb858895507f/prompt_final.ipynb
 
 ## Contributors
 - **Preeti Dubey**
