@@ -58,9 +58,20 @@ We implemented time series forecasting models to predict future COVID-19 cases:
 https://github.com/preetikumar20/Capstone_Covid19/blob/a871861f8f05c0c51227f05e58bcdd50e33ce2d5/final_capstone_preetidubey.ipynb
 
 ## Visualization 
+![image](https://github.com/user-attachments/assets/2f58231f-a5cb-4fd4-a280-ade3b31cfa8d)
+![newplot](https://github.com/user-attachments/assets/bb35cdad-b468-43af-af75-89a5507725b1)
+
 ![percentage_deaths_country](https://github.com/user-attachments/assets/f6c3822b-7d09-4a7c-9b82-8a7db147bc91)
-![top_5_country_cases](https://github.com/user-attachments/assets/1a35c299-e240-4823-af56-0f59fdded353)
+
 ![image](https://github.com/user-attachments/assets/2c961f79-5d3e-41c0-a9f5-ad2976b14c60)
+
+
+![exog_sarima_fit](https://github.com/user-attachments/assets/5f3bc53b-ef67-41f0-b6ae-d335eda49003)
+
+![image](https://github.com/user-attachments/assets/9e49ff99-375e-4277-8949-0b8356310035)
+
+![Screenshot 2025-03-19 at 1 31 46 AM](https://github.com/user-attachments/assets/3a506882-7dec-4896-8e36-a6ac5108a016)
+
 
 ## Contributors
 - **Preeti Dubey**
