@@ -55,7 +55,12 @@ We implemented time series forecasting models to predict future COVID-19 cases:
 - Visualizations and predictions were presented to aid decision-making in public health.
 
 ## Link for the final capstone project Jupyter notebook
-https://github.com/preetikumar20/Capstone_Covid19/blob/ac8c34bb6a10d9860434f838e5dfcb858895507f/prompt_final.ipynb
+https://github.com/preetikumar20/Capstone_Covid19/blob/a871861f8f05c0c51227f05e58bcdd50e33ce2d5/final_capstone_preetidubey.ipynb
+
+## Visualization 
+![percentage_deaths_country](https://github.com/user-attachments/assets/f6c3822b-7d09-4a7c-9b82-8a7db147bc91)
+![top_5_country_cases](https://github.com/user-attachments/assets/1a35c299-e240-4823-af56-0f59fdded353)
+![image](https://github.com/user-attachments/assets/2c961f79-5d3e-41c0-a9f5-ad2976b14c60)
 
 ## Contributors
 - **Preeti Dubey**
