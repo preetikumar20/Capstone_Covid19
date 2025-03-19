@@ -5,7 +5,7 @@ This project aims to analyze, forecast, and evaluate the spread of COVID-19 usin
 
 ## Repository Structure
 - **notebooks/** – Jupyter notebooks used for data analysis, modeling, and visualization.
-- **reports/** – Final report.
+- **reports/** – Initial and Final report.
 - **README.md** – This file, providing an overview of the project.
 
 ## Methodology
@@ -23,35 +23,42 @@ This project aims to analyze, forecast, and evaluate the spread of COVID-19 usin
 We implemented time series forecasting models to predict future COVID-19 cases:
 - **ARIMA Model**
 - **SARIMA Model**
+- **Exog SARIMA Model**
+- **Random Forest**
+- **XGBoost**
+- **LSTM**
 
 ### 4. Model Evaluation
-#### ARIMA Model:
-- **Mean Absolute Error (MAE):** 134,360.85
-- **Mean Squared Error (MSE):** 2.48 × 10¹⁰
-- **Root Mean Squared Error (RMSE):** 157,527.53
-- **AIC:** 3380.63, **BIC:** 3397.55
+ 	Model 	MAE 	MSE 	RMSE 	AIC 	BIC
+0 	ARIMA 	134360.86 	2.480000e+10 	157527.53 	3380.63 	3397.55
+1 	SARIMA 	97100.10 	1.640000e+10 	128000.76 	3462.81 	3474.15
+2 	EXOG SARIMA 	79852.14 	NaN 	93150.65 	3669.55 	3689.84
+3 	Random Forest 	68322.60 	6.600000e+09 	81348.77 	NaN 	NaN
+4 	XGBoost 	122012.04 	3.280000e+10 	181259.31 	NaN 	NaN
+5 	LSTM (Training) 	81126.04 	NaN 	185258.85 	NaN 	NaN
+6 	LSTM (Test) 	38242.36 	NaN 	56711.65 	NaN 	NaN
 
-#### SARIMA Model:
-- **Mean Absolute Error (MAE):** 97,100.10
-- **Mean Squared Error (MSE):** 1.64 × 10¹⁰
-- **Root Mean Squared Error (RMSE):** 128,000.76
-- **AIC:** 3462.81, **BIC:** 3474.15
-
-SARIMA outperformed ARIMA with lower error values, making it a better choice for forecasting.
+• SARIMA and EXOG SARIMA provide strong baseline forecasts. 
+• Random Forest minimizes MAE better than ARIMA and SARIMA but shows higher RMSE. 
+• LSTM (Test) outperforms all other models, making it the top-performing model. 
+• XGBoost shows weaker performance, likely needing tuning or different feature engineering.
+**LSTM (Test)** is the most effective model for predicting new COVID-19 cases in the USA.
 
 ## Key Findings
 - COVID-19 cases exhibited seasonal trends with multiple peaks due to variant outbreaks.
 - Public health interventions and vaccinations significantly reduced cases after major waves.
-- SARIMA provided better predictive performance than ARIMA.
+- SARIMA and EXOG SARIMA provide strong baseline forecasts.
+- LSTM (Test) outperforms all other models, making it the top-performing model. 
 
 ## Deployment
 - The final forecasting results and insights were delivered as a structured report.
 - Visualizations and predictions were presented to aid decision-making in public health.
 
-## Link for the Jupyter notebook
+## Link for the final capstone project Jupyter notebook
 https://github.com/preetikumar20/Capstone_Covid19/blob/ac8c34bb6a10d9860434f838e5dfcb858895507f/prompt_final.ipynb
 
 ## Contributors
 - **Preeti Dubey**
+- Email: preetiup28@gmail.com
 
 
