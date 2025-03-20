@@ -1,10 +1,11 @@
 # Exploring Global COVID-19 Trends and Predicting New Cases in the USA
 
 ## Project Overview
-This project aims to analyze, forecast, and evaluate the spread of COVID-19 using statistical and machine learning models. We utilize the WHO COVID-19 dataset to explore trends, conduct exploratory data analysis (EDA), and implement forecasting models such as ARIMA and SARIMA to predict case counts.
+This project aims to analyze, forecast, and evaluate the spread of COVID-19 using statistical and machine learning models. We utilize the WHO COVID-19 dataset to explore trends, conduct exploratory data analysis (EDA), and implement forecasting models such as ARIMA, SARIMA, Exog SARIMA, Random Forest, XGBoost and LSTM, to predict case counts.
 
 ## Repository Structure
 - **notebooks/** – Jupyter notebooks used for data analysis, modeling, and visualization.
+- **slides/** - PPT file containing highlights of the project.
 - **reports/** – Initial and Final report.
 - **README.md** – This file, providing an overview of the project.
 
