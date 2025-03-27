@@ -106,8 +106,8 @@ The comparative chart below summarizes the evaluation:
 ![newplot](https://github.com/user-attachments/assets/bb35cdad-b468-43af-af75-89a5507725b1)
 
 ## Link for the final capstone project Jupyter notebook
-https://github.com/preetikumar20/Capstone_Covid19/blob/a871861f8f05c0c51227f05e58bcdd50e33ce2d5/final_capstone_preetidubey.ipynb
 
+](https://github.com/preetikumar20/Capstone_Covid19/blob/1870bf100bfb913c0640cc201552ca0caa0072d4/final_capstone_preetidubey_03272025.ipynb)
 ## Contributors 🙌
 - **Preeti Dubey**  
   Email: [preetiup28@gmail.com](mailto:preetiup28@gmail.com)
